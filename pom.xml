@@ -29,12 +29,12 @@
                 <version>1.0-m4.3</version>
                 <configuration>
                     <flowInitContext>
-                    <masterBranchName>master</masterBranchName>
-                    <developBranchName>develop</developBranchName>
-                    <featureBranchPrefix>feature-</featureBranchPrefix>
-                    <releaseBranchPrefix>release-</releaseBranchPrefix>
-                    <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
-                    <versionTagPrefix>release-</versionTagPrefix>
+                        <masterBranchName>master</masterBranchName>
+                        <developBranchName>develop</developBranchName>
+                        <featureBranchPrefix>feature-</featureBranchPrefix>
+                        <releaseBranchPrefix>release-</releaseBranchPrefix>
+                        <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
+                        <versionTagPrefix>release-</versionTagPrefix>
                     </flowInitContext>
                     <enableFeatureVersions>true</enableFeatureVersions>
                 </configuration>
