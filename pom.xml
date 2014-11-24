@@ -18,12 +18,12 @@
     <repository>
      <id>nexus</id>
      <name>Internal Releases</name>
-     <url>${nexus.server}/nexus/content/repositories/releases/</url>
+     <url>${nexus.server}/content/repositories/releases/</url>
     </repository>
     <snapshotRepository>
      <id>deployment</id>
      <name>Internal Releases</name>
-     <url>${nexus.server}/nexus/content/repositories/snapshots/</url>
+     <url>${nexus.server}/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 
