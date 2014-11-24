@@ -11,7 +11,21 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <nexus.server>http://localhost:8080</nexus.server>
   </properties>
+  
+  <distributionManagement>
+    <repository>
+     <id>nexus</id>
+     <name>Internal Releases</name>
+     <url>${nexus.server}/nexus/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+     <id>deployment</id>
+     <name>Internal Releases</name>
+     <url>${nexus.server}/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <dependencies>
     <dependency>
