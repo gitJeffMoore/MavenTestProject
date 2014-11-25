@@ -14,18 +14,18 @@
     <nexus.server>http://localhost:8080</nexus.server>
   </properties>
   
-  <!--distributionManagement>
+  <distributionManagement>
     <repository>
      <id>nexus</id>
-     <name>Internal Releases</name>
-     <url>${nexus.server}/content/repositories/releases/</url>
+     <!--name>Internal Releases</name>
+     <url>${nexus.server}/content/repositories/releases/</url-->
     </repository>
     <snapshotRepository>
-     <id>deployment</id>
-     <name>Internal Releases</name>
-     <url>${nexus.server}/content/repositories/snapshots/</url>
+     <id>nexus</id>
+     <!--name>Internal Releases</name>
+     <url>${nexus.server}/content/repositories/snapshots/</url-->
     </snapshotRepository>
-  </distributionManagement-->
+  </distributionManagement>
 
   <dependencies>
     <dependency>
