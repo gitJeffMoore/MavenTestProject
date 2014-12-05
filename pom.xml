@@ -3,7 +3,7 @@
 
   <groupId>com.jmoore.test</groupId>
   <artifactId>testproject</artifactId>
-  <version>1.1</version>
+  <version>1.2</version>
   <packaging>jar</packaging>
 
   <name>testproject</name>
@@ -16,7 +16,7 @@
   
   <distributionManagement>
     <repository>
-     <id>nexus</id>
+     <id>AmwayNexusRepository</id>
      <name>Internal Releases</name>
      <url>${nexus.server}/content/repositories/releases/</url>
     </repository>
